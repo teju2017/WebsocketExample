@@ -5,6 +5,9 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 
+/* Very important to have the Enable websocket configuration
+ *  without which the websocket will not be registered
+ */
 
 @Configuration
 @EnableWebSocket
